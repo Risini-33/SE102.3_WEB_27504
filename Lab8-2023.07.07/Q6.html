@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Q6</title>
+    </head>
+    <body>
+        <script>
+            function func(){
+                var choice = confirm("Are you sure you want to open Google?");
+                
+                if (choice){
+                    window.location.href="https://www.google.com";
+                }
+                else{
+                    alert("You decided to stay.")
+                }
+            }
+        </script>
+        <button onclick="func()">Google</button>
+    </body>
